@@ -1,0 +1,31 @@
+# Environment & Secrets (Crucial: never commit API keys)
+.env
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector DB & Storage
+chroma_db/
+uploads/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
