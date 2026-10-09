@@ -126,8 +126,8 @@ RAG-chatbot/
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `GOOGLE_API_KEY` | — | Your Gemini API key (required) |
-| `GEMINI_MODEL` | `gemini-2.0-flash` | LLM model for generation |
-| `EMBEDDING_MODEL` | `models/embedding-001` | Embedding model |
+| `GEMINI_MODEL` | `gemini-3.5-flash-lite` | LLM model for generation |
+| `EMBEDDING_MODEL` | `models/gemini-embedding-2-preview` | Embedding model |
 | `CHUNK_SIZE` | `1000` | Text chunk size in characters |
 | `CHUNK_OVERLAP` | `200` | Overlap between chunks |
 | `TOP_K_RESULTS` | `5` | Number of chunks to retrieve |
